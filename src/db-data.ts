@@ -29,3 +29,70 @@ export const acessedLinks = [
     }
     
 ]
+
+export const sideNavLinks = 
+    {
+        'mainArea':'Project 2020',
+        'links' : [
+            {
+                'id':1
+                ,'title':'Overview'
+                ,'iconUrl':'https://www.svgrepo.com/show/505833/chart.svg'
+            }
+            , 
+            {
+                'id':2
+                ,'title':'Boards'
+                ,'iconUrl':'https://www.svgrepo.com/show/453570/sheet-folded-table.svg'
+            }
+            , 
+            {
+                'id':1
+                ,'title':'Overview'
+                ,'iconUrl':'https://www.svgrepo.com/show/505833'
+            }
+            , 
+            {
+                'id':1
+                ,'title':'Overview'
+                ,'iconUrl':'https://www.svgrepo.com/show/505833/chart.svg'
+            }
+            , 
+            {
+                'id':1
+                ,'title':'Overview'
+                ,'iconUrl':'https://www.svgrepo.com/show/505833/chart.svg'
+            }
+            ,
+            {
+                'id':1
+                ,'title':'Overview'
+                ,'iconUrl':'https://www.svgrepo.com/show/505833/chart.svg'
+            }
+            , 
+            {
+                'id':1
+                ,'title':'Overview'
+                ,'iconUrl':'https://www.svgrepo.com/show/505833/chart.svg'
+            }
+            , 
+            {
+                'id':1
+                ,'title':'Overview'
+                ,'iconUrl':'https://www.svgrepo.com/show/505833/chart.svg'
+            }
+            , 
+            {
+                'id':1
+                ,'title':'Overview'
+                ,'iconUrl':'https://www.svgrepo.com/show/505833/chart.svg'
+            }
+            , 
+            {
+                'id':1
+                ,'title':'Overview'
+                ,'iconUrl':'https://www.svgrepo.com/show/505833/chart.svg'
+            }
+        ]
+    }
+

@@ -1,0 +1,25 @@
+<div *ngIf="sideNavLinks$ | async as sideNavLinks" class="w-[15%]">
+    <div class="flex justify-between py-3 px-2 bg-gray-50">
+        <div class="flex items-center">
+        <div class="flex justify-center items-center w-6 h-6 bg-red-900 rounded-md mr-3">
+            <span class="text-white text-sm">S</span>
+        </div>
+            <h2 class="font-bold">{{sideNavLinks.mainArea}}</h2>
+        </div>
+        <a href="">
+            <img class="w-5 hover:text-[rgba(0,0,0,0.9)]" src="https://www.svgrepo.com/show/506281/plus.svg" alt="">
+        </a>
+    </div>
+
+    <ul>
+        <li *ngFor="let l of sideNavLinks.links">
+            <div>
+                <a href="" class="flex hover:bg-gray-300 py-2">
+                    <img [src]="l.iconUrl" alt="" class="w-5 mr-1 hover:bg-gray-400">
+                    
+                    {{l.title}}</a>
+            </div>
+        </li>
+    </ul>
+</div>
+
